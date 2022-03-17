@@ -134,6 +134,24 @@ input[type="search"] {
   flex-basis: 500px;
 }
 
+.lowwer{
+  margin: 10px;
+  color: #ffffff;
+  background-color: #ffffff23;
+  width: 500px;
+  border: solid 4px #d73851;
+  display: flex;
+  justify-content: center;
+}
+
+.not{
+  margin: 10px;
+  width: 500px;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+}
+
 @media all and (max-width:800px) {
   body {
     font-size: 0.9rem;
@@ -173,6 +191,12 @@ input[type="search"] {
   #madeby {
     padding: 30px 20px;
   }
+  .not{
+    width: 250px;
+  }
+  .lowwer{
+    width: 250px;
+  }
 }
 
 @media all and (max-width:360px) {
@@ -197,20 +221,3 @@ input[type="search"] {
   }
 }
     
-.lowwer{
-    margin: 10px;
-    color: #ffffff;
-    background-color: #ffffff23;
-    width: 500px;
-    border: solid 4px #d73851;
-    display: flex;
-    justify-content: center;
-}
-
-.not{
-    margin: 10px;
-    width: 500px;
-    display: flex;
-    justify-content: center;
-    flex-direction: column;
-}
