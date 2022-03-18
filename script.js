@@ -54,9 +54,6 @@ document.getElementById("myinput").onclick = () => {
     
         console.log(element.value,test2);
         showLinks(test,test2);
-        // document.getElementById(
-        //   "message"
-        // ).innerHTML = `<a href="${test2}">${test}</a>`;
       });
 
   } else {
